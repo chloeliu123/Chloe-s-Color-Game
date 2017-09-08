@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Libre+Barcode+39+Text|Abril+Fatface" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="f8.css">
+
+</head>
+<body>
+<i id="loader" class="fa fa-hand-scissors-o fa-4x" aria-hidden="true"></i>
+
+	<nav class="navbar navbar-inverse navnar-fixed-top" id = "special">
+		<div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#drop" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand rainbow" href="#">Khloe Color Game</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="drop">
+		    	<ul class="nav navbar-nav navbar-right">
+					<li><a class="rainbow" href="#"> <i class="fa fa-user-plus" aria-hidden="true"></i>      Signup</a></li>
+					<li><a class="rainbow" href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>      Login </a></li>
+				</ul>		    
+			</div>
+		</div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <!-- /.container-fluid -->
+	</nav>
+
+	<div class="jumbotron">
+		<p>THE GEATE <br><span id = "color">RGB(0, 0, 0)</span><br> GUESSING GAME</p>
+	</div>
+<div class = "body">
+<p><button type="button" class="btn btn-link" id="newColor">NEW COLORS</button ><span id = "change"> </span>        <button type="button" class="btn btn-link" id="easy">EASY</button ><button type="button" class="btn btn-link selected" id="hard">HARD</button ></p>
+
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="f8.js"></script>
+</body>
+</html>

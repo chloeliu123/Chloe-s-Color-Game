@@ -1,0 +1,154 @@
+
+
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	font-family:"Libre Barcode 39 Text",sans-serif;
+	font-size: 4rem;
+}
+.navbar .navbar-inverse .navnar-fixed-top #special{
+	margin-bottom: 0px;
+}
+html {
+	background-color: black;
+}
+/* a little margin in jumbotron*/
+.navbar {
+	padding-top:2%;
+	height: 90px;
+    margin: 0;
+}
+
+button{
+	letter-spacing: 1px;
+	outline: none;
+
+}
+
+#change {
+	display:inline-block;
+	width: 14%;
+}
+/* no margins*/
+.jumbotron {
+	font-family:Abril Fatface;
+	color:white;
+	text-align:center;
+	height: 200px;
+    background-color: rgb(254, 1, 144);
+    margin:0;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+h1 {
+    margin: 0;
+}
+
+#color {
+	font-size: 5rem;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding:14%;
+	float:left;
+	margin: 1.66%;
+	transition: background 1s;
+  	border-radius: 20%;
+  	-webkit-transition: background 1s;
+  	-moz-transition: background 1s;
+}
+
+#container {
+	max-width: 450px;
+	margin:2% auto;
+}
+
+
+.body p {
+	background-color: #D8ABC0;
+	text-align:center;
+	font-family:Gloria Hallelujah;
+}
+
+.btn-link {
+	color:#E8408E;
+	font-weight: 700;
+}
+.btn-link:hover {
+	background-color: pink;
+	color:white;
+}
+
+.selected {
+	background-color: rgb(254, 1, 144);
+	color:white;
+}
+/*Effect From CodePen*/
+
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 1s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+
+
+/*bike*/
+body{
+	justify-content:center;
+}
+
+#loader{
+	position:absolute;
+	color: #DC5594;
+	text-shadow: 1px 1px 3px pink;
+	text-shadow: 1.6px 1.6px 4px white;
+	animation: bike 3.5s linear infinite;
+}
+
+@keyframes bike {
+	0%   {top: 55vh; left: 0%;opacity:0.1;}
+	10%   {top: 560vh; left: 10%;opacity:0.5;}
+	20%   {top: 55vh; left: 20%;opacity:1;}
+	30%   {top: 60vh; left: 30%;opacity:1;}
+	40%   {top: 55vh; left: 40%;opacity:1;}
+	50%   {top: 60vh; left: 50%;opacity:1;}
+	60%   {top: 55vh; left: 60%;opacity:1;}
+	70%   {top: 60vh; left: 70%;opacity:1;}
+	80%   {top: 55vh; left: 80%;opacity:1;}
+	90%   {top: 60vh; left: 90%;opacity:0.5;}
+	100%   {top: 55vh; left: 100%;opacity:0.1;}
+}
